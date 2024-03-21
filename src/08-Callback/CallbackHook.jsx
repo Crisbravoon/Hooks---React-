@@ -8,6 +8,7 @@ export const CallbackHook = () => {
 
     //Memoriza funciones , solo cuando algo cambie
     const incrementFathe = useCallback(
+        //EL value tomara el valor del increment que se le paso
         ( value ) => {
             //Sabe internamente que va sumar +1
             setCounter(( CounterValue ) => CounterValue + value);
