@@ -9,8 +9,10 @@ import { Padre } from './05-Tarea/Padre'
 // import { CallbackHook } from './08-Callback/CallbackHook'
 // import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Padre/>
-  </React.StrictMode>,
-)
+import './09-useReducer/intro-reducer';
+
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//   <React.StrictMode>
+//     <Padre/>
+//   </React.StrictMode>,
+// )
