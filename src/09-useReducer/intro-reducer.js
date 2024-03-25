@@ -22,7 +22,9 @@ const initialState = [{
 
 const todoReducer = (state = initialState, action) => {
     //Valida si existe la acción y la agrega
-    return action?.type ? [...state, ...action.payload] : state;
+    return action?.type 
+    ? [...state, ...action.payload] 
+    : state;
 };
 
 let todos = todoReducer();
