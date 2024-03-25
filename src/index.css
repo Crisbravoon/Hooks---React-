@@ -1,7 +1,15 @@
-body{
+body {
     padding: 20px;
 }
 
-button{
+button {
     margin-right: 10px;
 }
+
+a {
+    padding: 1rem 1.5rem;
+     flex-direction: row; 
+     justify-content: flex-end; 
+    align-items: flex-end;  
+}
+/* flex-direction: row-reverse;     */
